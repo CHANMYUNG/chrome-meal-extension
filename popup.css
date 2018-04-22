@@ -23,6 +23,9 @@ nav {
   line-height: 24px;
 }
 
+#date {
+  margin-bottom: 10px;
+}
 #right-btn,
 #left-btn {
   width: 24px;
@@ -41,4 +44,5 @@ nav #setting-btn {
 #diner {
   width: 150px;
   height: 200px;
+  display: inline-block
 }
