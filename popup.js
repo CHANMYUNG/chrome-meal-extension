@@ -9,21 +9,7 @@ function initMeal() {
 }
 
 $('img').on('click', function () {
-  $.ajax({
-    'url': 'http://localhost:8080/apply/status?email=test3@test.com&password=1234',
-    'method': 'GET',
-    'headers': {
-      'Access-Control-Allow-Origin': 'http://localhost:8080/'
-    },
-    success: function (res) {
-      console.log(res)
-      document.body.innerText = JSON.stringify(res);
-    },
-    error: function (e) {
-      console.log(e)
-      document.body.innerText = e.message;
-    }
-  })
+  location.href = "./settings.html"
 })
 
 window.onload = initMeal();
